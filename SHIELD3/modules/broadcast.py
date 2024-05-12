@@ -2,8 +2,8 @@ import asyncio
 from config import OWNER_ID
 from pyrogram import *
 from pyrogram.types import *
-from SHIELD3 import SHIELD3 as app
-from SHIELD3.helper import *
+from L2RCOPYBOT import L2RCOPYBOT as app
+from L2RCOPYBOT.helper import *
 
 
 

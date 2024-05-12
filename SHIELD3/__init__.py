@@ -23,8 +23,8 @@ logging.basicConfig(
 
 
 
-SHIELD3 = Client(
-    ":SHIELD3:",
+L2RCOPYBOT = Client(
+    ":L2RCOPYBOT:",
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
@@ -32,10 +32,10 @@ SHIELD3 = Client(
 
 
 
-async def SHIELD3_bot():
+async def L2RCOPYBOT_bot():
     global BOT_ID, BOT_NAME, BOT_USERNAME
-    await SHIELD3.start()
-    getme = await SHIELD3.get_me()
+    await L2RCOPYBOT.start()
+    getme = await L2RCOPYBOT.get_me()
     BOT_ID = getme.id
     BOT_USERNAME = getme.username
     if getme.last_name:
@@ -44,4 +44,4 @@ async def SHIELD3_bot():
         BOT_NAME = getme.first_name
 
 
-loop.run_until_complete(SHIELD3_bot())
+loop.run_until_complete(L2RCOPYBOT_bot())

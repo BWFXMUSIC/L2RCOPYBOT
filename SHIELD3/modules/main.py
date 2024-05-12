@@ -10,7 +10,7 @@ import platform
 import logging
 from config import OWNER_ID, BOT_USERNAME
 from config import *
-from SHIELD3 import SHIELD3 as app
+from L2RCOPYBOT import L2RCOPYBOT as app
 
 import pyrogram
 from pyrogram.errors import FloodWait
