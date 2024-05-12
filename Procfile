@@ -1,1 +1,1 @@
-mrroy: python -m SHIELD3
+mrroy: python -m L2RCOPYBOT
